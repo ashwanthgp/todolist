@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Todo" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "name" TEXT NOT NULL,
+    "complete" BOOLEAN NOT NULL,
+    "CreatedAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "UpdatedAt" DATETIME NOT NULL
+);
